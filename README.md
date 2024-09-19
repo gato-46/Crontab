@@ -11,3 +11,7 @@
 - 접속 후 퇴실 요청 수행
 - crontab을 사용하여 평일 17시 51분에 수행 반복
 - 반복 이후 1분 뒤 shutdown 명령어를 통해 자동으로 노트북 종료
+
+### Crontab 명령어
+``` bash
+50 17 * * 1-5 /home/ubuntu/fisa_login.sh
